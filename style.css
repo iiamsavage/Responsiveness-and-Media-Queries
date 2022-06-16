@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: hsl(0, 100%, 74%);
+    background-image: url('./images/bg-intro-desktop.png');
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 100vh;
+}
+.container > div {
+    flex: 1;
+
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 50px;
+}
+
+p {
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.box {
+    background-color:#fff;
+    border-radius: 5px;
+    box-shadow: 0 6px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.box-blue {
+    background-color: hsl(248, 32%, 49%);
+    padding: 5px;
+    text-align: center;
+
+}
+
+.box p {
+    margin: 0;
+    background-color: hsl(248, 32%, 49%);
+}
+
+.form-control{
+    position: relative;
+    margin-bottom:20px;
+    color: hsl(322, 100%, 66%);
+}
+
+.form-control small {
+    color: hsl(322, 100%, 66%);
+    display:none;
+    position:absolute;
+    bottom: -20px;
+    right: 0;
+    opacity: 0;
+    text-align: right;
+}
+
+.box-blue {
+    background-color: hsl(248, 32%, 49%);
+
+}
+
+input {
+    padding: 15px 25px;
+    border: 1px solid hsl(246, 25%, 77%);
+    display: block;
+    width: 100%;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+
+}
+input:focus{
+    background-color: hsl(248, 32%, 49%);
+    outline: none;
+}
+
+button{
+    padding: 15px 25px;
+    border: 1px solid hsl(154, 59%, 45%);
+    background-color: hsl(154, 59%, 51%);
+    box-shadow: 0 2px  hsl(154, 59%, 45%);
+    display: block;
+    width: 100%;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    color:#fff;
+    cursor: pointer;
+
+}
+
+button:focus {
+    outline:none;
+
+}
+
+button:active{
+    box-shadow: 0 0 hsl(154, 59%, 45%);
+    transform: translateY(2px);
+}
+
+small{
+    color:#bbb;
+    display:block;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 15px;
+    text-align: center;
+}
+
+small a{
+    color:hsl(0, 100%, 74%);
+    text-decoration: none;
+    font-weight: 600;
+    
+    }
+
